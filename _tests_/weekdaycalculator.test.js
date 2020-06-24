@@ -8,4 +8,10 @@ describe('Date', () => {
     expect(date.day).toEqual(24);
     expect(date.year).toEqual(2020);
   })
+
+  test('should display day of the week', () => {
+    let date = new Array(7);
+    expect(date.day[0]).toBe("Sunday");
+  })
 })
+
