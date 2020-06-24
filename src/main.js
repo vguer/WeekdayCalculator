@@ -15,8 +15,6 @@ $(document).ready(function () {
       let day = parseInt($("input#day").val());
 
       let calculate = new Date(year, month, day);
-      console.log("hello");
       $("#showResult").html(calculate.myDate());
-
   });
 });

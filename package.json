@@ -1,17 +1,17 @@
 {
-  "name": "project-name",
+  "name": "weekdaycalculator",
   "version": "1.0.0",
-  "description": "description-here",
-  "main": "main.js",
+  "description": "An app that calculates the day for any given date",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
-    "start": "npm run build; webpack-dev-server --open --mode development", //if on pc change first semi-colon to &
+    "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest",
     "debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "keywords": [],
-  "author": "your-name-here",
+  "author": "Spencer Moody, Thomas Glenn, Vanessa Guerrero",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
