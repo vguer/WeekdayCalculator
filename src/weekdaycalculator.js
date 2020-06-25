@@ -14,16 +14,16 @@ export class Calculate {
   }
 
   checkDay() {
-    // if (this.day < 1 || this.day > 31) {
-    //   return false;
-    // }
-//     else if ((this.month === 4 || this.month === 6 || this.month === 9 || this.month === 11) && (this.day > 30)) {
-//       return false;
-//     }
-//     else if (this.month === 2 && this.checkYear() && this.day > 29) {
-//       return false;
-//   }
-//     return true;
+    if (this.day < 1 || this.day > 31) {
+      return false;
+    }
+    else if ((this.month === 4 || this.month === 6 || this.month === 9 || this.month === 11) && (this.day > 30)) {
+      return false;
+    }
+    else if (this.month === 2 && this.checkYear() && this.day > 29) {
+      return false;
+  }
+    return true;
 }
 
   
