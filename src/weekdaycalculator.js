@@ -1,12 +1,12 @@
-import $ from 'jQuery';
-export function Date(year, month, day) {
+export class Calculate {
+  constructor (year, month, day) {
   this.year = year;
   this.month = month;
   this.day = day;
   }
 
-  Date.prototype.myDate = function() {
-    let weekday = new Array(7);
+  checkDate() {
+  let weekday = new Array(7);
   weekday[0] = "Sunday";
   weekday[1] = "Monday";
   weekday[2] = "Tuesday";
@@ -16,11 +16,11 @@ export function Date(year, month, day) {
   weekday[6] = "Saturday";
   let date = new Date(`${this.year}, ${this.month}, ${this.day}`);
   
-  // let dayResult = date.getDay();
+  let dayResult = weekday[date.getDay()];
   return dayResult;
   console.log(weekday);
   }
-
+};
     
 
 

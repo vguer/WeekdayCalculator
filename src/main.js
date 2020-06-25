@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import { Date } from './weekdaycalculator.js';
+import { Calculate } from './weekdaycalculator.js';
 
 
 
@@ -14,7 +14,7 @@ $(document).ready(function () {
       let month = parseInt($("input#month").val());
       let day = parseInt($("input#day").val());
 
-      let calculate = new Date(year, month, day);
-      $("#showResult").html(calculate.myDate());
+      let calculate = new Calculate(year, month, day);
+      $("#showResult").html(calculate.checkDate());
   });
 });
