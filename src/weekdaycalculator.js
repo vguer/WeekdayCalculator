@@ -6,15 +6,12 @@ export class Calculate {
   }
 
   checkYear() {
-  
-  }
-    
-    /* if ((this.year % 100 !== 0) && (this.year % 4 === 0) || (this.year % 400 === 0)) {
+    if ((this.year % 100 !== 0) && (this.year % 4 === 0) || (this.year % 400 === 0)) {
       return true;
     } else {
       return false;
     }
-  }*/
+  }
 
   checkDate() {
     let weekday = new Array(7);

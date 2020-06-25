@@ -13,7 +13,7 @@ describe('Date', () => {
   })
   test ('should determine if a year is a leap year', () => {
     let leapyear = new Calculate(2020);
-    expect(leapyear.year).toBe(true);
+    expect(leapyear.checkYear()).toBe(true);
   })
 })
 
