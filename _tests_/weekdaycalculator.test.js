@@ -15,5 +15,10 @@ describe('Date', () => {
     let leapyear = new Calculate(2020);
     expect(leapyear.checkYear()).toBe(true);
   })
-})
+  test ('should determine number of days in a month', () => {
+    let checkday = new Calculate(2020, 2,30);
+    expect(checkday.checkDay()).toBe(false);
+  })
+});
+
 

@@ -10,8 +10,23 @@ export class Calculate {
       return true;
     } else {
       return false;
-    }
+    } 
   }
+
+  checkDay() {
+    // if (this.day < 1 || this.day > 31) {
+    //   return false;
+    // }
+//     else if ((this.month === 4 || this.month === 6 || this.month === 9 || this.month === 11) && (this.day > 30)) {
+//       return false;
+//     }
+//     else if (this.month === 2 && this.checkYear() && this.day > 29) {
+//       return false;
+//   }
+//     return true;
+}
+
+  
 
   checkDate() {
     let weekday = new Array(7);
@@ -30,7 +45,6 @@ export class Calculate {
   
     let dayResult = weekday[date.getDay()];
     return dayResult;
-  //console.log(weekday);
   }
 }
     
