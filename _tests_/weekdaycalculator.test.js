@@ -11,5 +11,9 @@ describe('Date', () => {
     expect(date.month).toEqual( 6);
     expect(date.day).toEqual(24);
   })
+  test ('should determine if a year is a leap year', () => {
+    let leapyear = new Calculate(2020);
+    expect(leapyear.year).toBe(true);
+  })
 })
 
