@@ -14,6 +14,9 @@ export class Calculate {
   }
 
   checkDay() {
+    if (this.month < 1 || this.month > 12) {
+      return false;
+    }
     if (this.day < 1 || this.day > 31) {
       return false;
     }
@@ -22,7 +25,10 @@ export class Calculate {
     }
     else if (this.month === 2 && this.checkYear() && this.day > 29) {
       return false;
-  }
+    }
+    else if (this.month ===2 && !this.checkYear() && this.day > 28) {
+      return false;
+    }
     return true;
 }
 
