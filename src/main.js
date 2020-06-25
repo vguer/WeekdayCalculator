@@ -18,6 +18,6 @@ $(document).ready(function () {
     
     let calculate = new Calculate(year, month, day);
       $("#showResult").html(calculate.checkDate());
-
+      $("#result").show();
   });
 });

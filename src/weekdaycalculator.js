@@ -32,8 +32,6 @@ export class Calculate {
     return true;
 }
 
-  
-
   checkDate() {
     let weekday = new Array(7);
       weekday[0] = "Sunday";
@@ -44,21 +42,7 @@ export class Calculate {
       weekday[5] = "Friday";
       weekday[6] = "Saturday";
     let date = new Date(`${this.year}, ${this.month}, ${this.day}`);
-
-    //if (this.year === checkYear()) {
-    //  return 
-    //} else {
-  
     let dayResult = weekday[date.getDay()];
-    return dayResult;
+      return dayResult;
   }
 }
-    
-
-
-//   // let weekdays = new Array(
-//   //   "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-//   // );
-//   // let dateResult = date.getDay();
-//   // return weekdays[dateResult];
-// 

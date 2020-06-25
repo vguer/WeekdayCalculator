@@ -1,20 +1,21 @@
 # Weekday Calculator
 
-#### 
+#### A paired project for Epicodus, 6.25.2020
 
-#### By _**Spencer Moody, Thomas Glenn, and Vanessa Guerrero**_
+#### By _**Spencer Moody and Vanessa Guerrero**_
 
 ## Description
 
-This application allows users to calculate the day for any given date. The user should be able to enter a date and see the day of the week that date occured on. This was a project assigned by Epicodus to practice Test Driven Development and Environments with JavaScript.
+This application allows users to calculate the day of the week for any given date. The user should be able to enter a date and see the day of the week that date occured on. This was a project assigned by Epicodus to practice Test Driven Development and Environments with JavaScript.
 
 ### Specs
-| Spec | Input | Output |
-| :Program will display three fields to enter month, day, year    | : No input necessary | : __/ __/ ____ |
-| :Program will only allow number symbols to be inputted    | : 06/ t4/ 2020 | : please enter numbers |
-| :Program will accept two integers for month and day    | : 06/ 24/ 2020 | : ------------- |
-| :Program will accept four integers for year    | : 06/ 24/ 20 | :  Please enter a year |
-| :Program will calculate user's input to display the day that date inputted lands on    | : 06/ 24/ 2020 | : Wednesday |
+| Spec         | Input | Output |
+| :----------- | :----- | :----- |
+| Program will display three fields to enter month, day, year | No input necessary | __/ __/ ____ |
+| Program will only allow number symbols to be inputted    | 06/ t4/ 2020 | please enter numbers |
+| Program will accept two integers for month and day    | 06/ 24/ 2020 | ------------- |
+| Program will accept four integers for year | 06/ 24/ 20 | Please enter a year |
+| Program will calculate user's input to display the day that date inputted lands on | 06/ 24/ 2020 | Wednesday |
 
 ## Setup/Installation Requirements
 
@@ -40,6 +41,6 @@ _For questions about this project, please contact one of the contributors._
 
 ### License
 
-*MIT*
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-Copyright (c) 2020 **_Spencer Moody, Thomas Gleenn, Vanessa Guerrero_**
+Copyright (c) 2020 **_Spencer Moody, Vanessa Guerrero_**
